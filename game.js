@@ -46,6 +46,7 @@ function animatePress(currentColor) { //animacija
 	}, 100);
 }
 
+$(".startBtn").on("click", gameStart);
 
 $(document).on("keydown", gameStart);
 function gameStart() {
